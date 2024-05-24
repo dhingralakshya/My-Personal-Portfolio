@@ -1,0 +1,250 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode','Lucida Grande','Lucida Sans',Arial,sans-serif;
+}
+.header{
+    background-color: #3AAFA9;
+    padding-bottom: 1cm;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    padding-right: 40px;
+    height: 5mm;
+    display: flex;
+    margin: -10px;
+}
+.profile_name{
+    font-size: 25px;
+    color: #17252A;
+    margin-left: 10px;
+    font-weight: 500;
+}
+.topdiv{
+    flex: 50%;
+    text-align: right;
+    margin-right: 20px;
+}
+.topmenu{
+    color: #17252A;
+    margin: 10px;
+    padding: 5px;
+    font-size: 17px;
+    text-decoration: none;
+}
+.topmenu:hover{
+    transition: 0.3s;
+    color: #DEF2F1;
+    padding-bottom: 8px;
+    border-bottom-style: solid;
+    border-bottom-width: 3.1px;
+    width: fit-content;
+}
+.about{
+    margin-left: 50px;
+    margin-top: 120px;
+    display: flex;
+    gap: 170px;
+    margin-bottom: 60px;
+}
+.myimg{
+    height: 320px;
+    width: 300px;
+    margin-left: 140px;
+    margin-top: 80px;
+}
+.details{
+    margin-top: 85px;
+    margin-right: 100px;
+}
+.details h1{
+    font-size: 44px;
+    color: #3AAFA9;
+}
+.details p{
+    font-size: 20px;
+    margin-right: 75px;
+    color: #7e7575;
+}
+.skills{
+    text-align: center;
+    color: #3AAFA9;
+    margin-left: 50px;
+    margin-bottom: 80px;
+    padding-top: 40px;
+}
+.skills h1{
+    padding-bottom: 20px;
+    font-size: 45px;
+}
+.all-skills{
+    margin-top: 30px;
+    margin-left: 190px;
+    margin-right: 200px;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    row-gap: 55px;
+    border: 1.5px solid #17252A;
+    border-radius: 6px;
+    padding: 30px;
+    justify-content: center;
+}
+.skill{
+    font-size: 20px;
+}
+.skill:hover{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.skill img{
+    padding-top: 10px;
+    height: 100px;
+    align-items: center;
+}
+.skill h6{
+    color: #17252A;
+}
+.projects {
+    color: #3AAFA9;
+    margin-top: 80px;
+    margin-left: 170px;
+    margin-right: 140px;
+    padding-top: 40px;
+}
+.projects h1{
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 45px;
+}
+.all-projects{
+    display: flex;
+    gap: 50px;
+    margin-right: 50px;
+}
+.project{
+    text-align: center;
+    display: block;
+    border: 1.5px solid #17252A;
+    justify-content: center;
+    padding: 15px;
+    padding-top: 24px;
+    border-radius: 20px;
+    flex: 1;
+}
+.project p{
+    color: #17252A;
+    font-size: 17px;
+    margin-top: -6px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+html {
+    scroll-behavior: smooth;
+}
+hr{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    align-items: center;
+}
+.footer{
+    margin-top: 100px;
+    background-color: #3AAFA9;
+}
+.me{
+    
+    color: #17252A;
+}
+.logo{
+    width: 100px;
+    height: 80px;
+    padding: 10px;
+    border: 1px #3AAFA9;
+    border-radius: 50%;
+}
+
+.project img{
+    border: 1px white;
+    border-radius: 20px;
+}
+.footer{
+    padding: 50px;
+}
+button{
+    width: 150px;
+    height: 50px;
+    border: 1px #DEF2F1;
+    border-radius: 75px;
+    background-color: #17252A;
+    color: #DEF2F1;
+}
+button:hover{
+    background-color: #DEF2F1;
+    color: #17252A;
+}
+.resume{
+    text-align: center;
+    
+    flex: 1;
+}
+.footer{
+    display: flex;
+    gap: 80px;
+    align-items:start;
+    margin-right: -10px;
+}
+.quick-links{
+    display: flex;
+    flex-direction: column;
+    gap: -1px;
+    flex: 1;
+}
+.me h1{
+    color: #17252A;
+    padding-bottom: 8px;
+    border-bottom-style: solid;
+    border-bottom-width: 3.1px;
+    width: fit-content;
+}
+.quick-links h1{
+    margin-bottom: 4px;
+    color: #17252A;
+    padding-bottom: 8px;
+    border-bottom-style: solid;
+    border-bottom-width: 3.1px;
+    width: fit-content;
+}
+
+.top{
+    color: #17252A;
+    margin: 8px;
+    font-size: 17px;
+    text-decoration: none;
+}
+.top:hover{
+    transition: .4s;
+    color: #DEF2F1;
+}
+.me{
+    flex: 1;
+}
+.copyright{
+    background-color: #3AAFA9;
+    text-align: center;
+    color: #17252A;
+    font-size: 15px;
+    margin-bottom: -15px;
+    margin-right: -10px;
+}
+.git,.demo{
+    border: 1px solid #3AAFA9;
+    background-color: #3AAFA9;
+    color: #FEFFFF;
+    font-size: 14.5px;
+}
+.git:hover,
+.demo:hover{
+    transition: .4s;
+    background-color: #FEFFFF;
+    color: #17252A;
+}
+.twitter{
+    border: 1px solid black;
+}
